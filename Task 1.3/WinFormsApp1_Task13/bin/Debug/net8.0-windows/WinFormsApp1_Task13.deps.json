@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "WinFormsApp1_Task13/1.0.0": {
+        "dependencies": {
+          "WinFormsLibrary1_Task13": "1.0.0",
+          "WinFormsLibrary2_Task13": "1.0.0"
+        },
+        "runtime": {
+          "WinFormsApp1_Task13.dll": {}
+        }
+      },
+      "WinFormsLibrary1_Task13/1.0.0": {
+        "runtime": {
+          "WinFormsLibrary1_Task13.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "WinFormsLibrary2_Task13/1.0.0": {
+        "runtime": {
+          "WinFormsLibrary2_Task13.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WinFormsApp1_Task13/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsLibrary1_Task13/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WinFormsLibrary2_Task13/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

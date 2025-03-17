@@ -1,0 +1,11 @@
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\bin\Debug\net8.0-windows\WinFormsLibrary1_Task13.deps.json
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\bin\Debug\net8.0-windows\WinFormsLibrary1_Task13.dll
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\bin\Debug\net8.0-windows\WinFormsLibrary1_Task13.pdb
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.AssemblyInfo.cs
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.dll
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\refint\WinFormsLibrary1_Task13.dll
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\WinFormsLibrary1_Task13.pdb
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\WinFormsLibrary1_Task13\obj\Debug\net8.0-windows\ref\WinFormsLibrary1_Task13.dll

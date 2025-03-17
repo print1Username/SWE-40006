@@ -1,0 +1,10 @@
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsApp1_Task13.dll
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsLibrary1_Task13.dll
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsLibrary2_Task13.dll
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/calculator.ico
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsApp1_Task13.deps.json
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsApp1_Task13.runtimeconfig.json
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsApp1_Task13.exe
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsApp1_Task13.pdb
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsLibrary1_Task13.pdb
+../WinFormsApp1_Task13/bin/Debug/net8.0-windows/WinFormsLibrary2_Task13.pdb

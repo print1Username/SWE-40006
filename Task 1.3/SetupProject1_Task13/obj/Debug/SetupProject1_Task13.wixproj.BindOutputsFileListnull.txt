@@ -1,0 +1,2 @@
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\SetupProject1_Task13\bin\Debug\SetupProject1_Task13.msi
+C:\Users\User\Documents\Swinburne\SWE 40006 Software Deployment and Evolution\Deployment Activity 1\Task 1.3\SetupProject1_Task13\bin\Debug\SetupProject1_Task13.wixpdb
