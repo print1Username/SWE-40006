@@ -1,0 +1,5 @@
+../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll
+../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json
+../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json
+../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.exe
+../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb

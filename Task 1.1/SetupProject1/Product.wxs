@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+	
+	<!-- Product Details -->
+	<Product Id="*" Name="Task1_1"
+			 Language="1033"
+			 Version="1.0.0.0"
+			 Manufacturer="Ivan Hoan Jia Wei"
+			 UpgradeCode="6d16c8b7-0eaf-460e-8f78-3bde9293296a">
+		
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Update -->
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab="yes" />
+
+		
+		<!-- Function -->
+		<Feature Id="ProductFeature" Title="Task1_1" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+		</Feature>
+	</Product>
+
+	<!-- Program Install Location-->
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder" Name="SetupProject_Task1_1">
+				<Directory Id="INSTALLFOLDER" Name="SetupProject_Task1_1" />
+			</Directory>
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- Main Apps -->
+			<Component Id ="MainExecutable" Guid="A2B7B75B-6A86-4E4F-AC59-36239F7AB21B">
+				<File 
+					Id="MainEXE"
+					Name="Main.exe"
+					Source="../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.exe"
+					KeyPath="yes">
+				</File>
+			</Component>
+
+			<!-- Other Apps -->
+			<Component Id="ComponentDLLs" Guid="94696F16-7EDD-4434-ABB7-0BE7A102B3EB">
+				<File Id="DLL"
+					  Name="ConsoleApp1.dll"
+					  Source="../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.dll"/>
+				<File Id="JSON1"
+					  Name="ConsoleApp1.deps.json"
+					  Source="../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.deps.json"/>
+				<File Id="JSON2"
+					  Name="ConsoleApp1.runtimeconfig.json"
+					  Source="../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.runtimeconfig.json"/>
+				<File Id="PDB"
+					  Name="ConsoleApp1.pdb"
+					  Source="../ConsoleApp1/bin/Debug/net8.0/ConsoleApp1.pdb"/>
+			</Component>
+
+		</ComponentGroup>
+
+	</Fragment>
+	
+
+	
+</Wix>
