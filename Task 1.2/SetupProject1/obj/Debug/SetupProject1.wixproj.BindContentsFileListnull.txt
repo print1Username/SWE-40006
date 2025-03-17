@@ -1,0 +1,4 @@
+../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe.config
+../WindowsFormsApp1/calculator.ico
+../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe
+../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb

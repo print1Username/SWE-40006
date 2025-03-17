@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+
+	<!-- Product Details -->
+	<Product
+		Id="*"
+		Name="Task1_2"
+		Language="1033"
+		Version="1.0.0.0"
+		Manufacturer="Ivan Hoan Jia Wei"
+		UpgradeCode="d4c45ad4-2fa8-4c83-b79c-8509d56ec8b8">
+		
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+
+		<!-- Update -->
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate EmbedCab ="yes"/>
+
+		<!-- Icon File Setting -->
+		<Icon Id="AppIcon.exe" SourceFile="../WindowsFormsApp1/calculator.ico" />
+		<!-- Setting the Icon in Control Panel -->
+		<Property Id="ARPPRODUCTICON" Value="AppIcon.exe" />
+
+		<!-- Function -->
+		<Feature Id="ProductFeature" Title="Task1_2" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+			<ComponentRef Id="DesktopShortcut" />
+		</Feature>
+	</Product>
+
+	<!-- Program Install Location-->
+	<Fragment>
+		<!-- Main Program Location-->
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder" Name="SetupProject_Task1_2">
+				<Directory Id="INSTALLFOLDER" Name="SetupProject_Task1_2">
+					<Directory Id="IconFolder" Name="icon"/>
+				</Directory>
+			</Directory>
+
+			<!-- Desktop Shortcut Location-->
+			<Directory Id="DesktopFolder" Name="Desktop" />
+		</Directory>
+	</Fragment>
+
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- Main Apps -->
+			<Component Id="MainExecutable" Guid="A1A6505C-C2CE-4FDA-8C32-971B7328577C">
+				<File
+					Id ="MainEXE"
+					Name ="WindowsFormsApp1.exe"
+					Source="../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe"
+					KeyPath="yes">
+				</File>
+			</Component>
+			
+			<!-- Other Apps -->
+			<Component Id="Others" Guid="C72572D3-D141-43AB-A20B-940A4B5BCFB5">
+				<File
+					Id ="Config"
+					Name ="WindowsFormsApp1.exe.config"
+					Source="../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.exe.config">
+				</File>
+				<File
+					Id ="pdb"
+					Name ="WindowsFormsApp1.pdb"
+					Source="../WindowsFormsApp1/bin/Debug/WindowsFormsApp1.pdb">
+				</File>
+				<File
+					Id ="Icon"
+					Name="calculator.ico"
+					Source="../WindowsFormsApp1/calculator.ico">
+				</File>
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+	<!-- ShortCut -->
+	<Fragment>
+		<!-- Desctop Shortcut -->
+		<DirectoryRef Id="DesktopFolder">
+			<Component Id="DesktopShortcut" Guid="0B8CAAA6-25B8-412F-A56B-B0274B83B4DD">
+				<Shortcut Id="DesktopShortcut"
+						  Name="Task1_2"
+						  Description="This is the program for SWE30049 Task 1.2"
+						  Target="[INSTALLFOLDER]WindowsFormsApp1.exe"
+						  WorkingDirectory="INSTALLFOLDER"
+						  Icon="AppIcon.exe" />
+
+				<!-- Registry Key -->
+				<RegistryValue Root="HKCU"
+								Key="Software\Ivan Hoan Jia Wei\Task1_2"
+								Name="installed"
+								Type="integer"
+								Value="1"
+								KeyPath="yes"/>
+			</Component>
+		</DirectoryRef>
+	</Fragment>
+
+</Wix>
