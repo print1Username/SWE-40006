@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Task32WebApplication.props" />
+</Project>
