@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\Swinburne\\SWE 40006 Software Deployment and Evolution\\Deployment Activity 3\\Task 3.3\\Task33PHPWebProject1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ED9B9FB-763F-93B8-5C3D-3775465C4745}|Task33PHPWebProject1.phpproj|c:\\users\\user\\documents\\swinburne\\swe 40006 software deployment and evolution\\deployment activity 3\\task 3.3\\task33phpwebproject1\\index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}",
+      "RelativeMoniker": "D:0:0:{8ED9B9FB-763F-93B8-5C3D-3775465C4745}|Task33PHPWebProject1.phpproj|solutionrelative:index.php||{3D2461EC-8045-4AA9-ABFB-812292AE795D}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{be7148d2-10af-117f-af5d-fce1a35ff0c0}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "index.php",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\Swinburne\\SWE 40006 Software Deployment and Evolution\\Deployment Activity 3\\Task 3.3\\Task33PHPWebProject1\\index.php",
+              "RelativeDocumentMoniker": "index.php",
+              "ToolTip": "C:\\Users\\User\\Documents\\Swinburne\\SWE 40006 Software Deployment and Evolution\\Deployment Activity 3\\Task 3.3\\Task33PHPWebProject1\\index.php",
+              "RelativeToolTip": "index.php",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "89320d42-7831-4f47-839a-c227d3a60919.000001|",
+              "WhenOpened": "2025-04-13T15:01:34.416Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

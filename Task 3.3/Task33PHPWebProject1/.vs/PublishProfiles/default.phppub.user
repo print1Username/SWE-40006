@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Excluded />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfOV2MYQZOkOsgsUM0OhJYgAAAAACAAAAAAAQZgAAAAEAACAAAADNeQKh13X0JvseP/1l+1ygOPAdLt8vFUec5DqrY+BmrQAAAAAOgAAAAAIAACAAAABPtY6ifVapOwt7CRZZHr/lw4vSoNEwXEYl65ac7b6hpYAAAAD/nkSlhqfQ//IXC5IUrigRhjtO3O9PQBY6xrUIcMnlL5SXxY2qaKmhgByMXU5oIXT4q1C/Jq437b0p+A5+K0kjIWtfm6Ku3fbBBK6XmoNxYYMy7GKt7aMt8AxqOFp2zu+pIxL+hOqMQlygO8eZywLCeNr5oSM5ZkBOBu8hN1EMg0AAAABDSVjPN+Y3CpDA5PuG/YdrzKYwju/pOymG04f5o1egy856CSkoH5NACqHYe8sqjTm8sABOiRFHkK1Z9N8E+obn</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="index.php">
+      <publishTime>04/13/2025 15:04:01</publishTime>
+    </File>
+    <File Include="Task33PHPWebProject1.phpproj">
+      <publishTime>04/13/2025 15:04:00</publishTime>
+    </File>
+    <File Include="Task33PHPWebProject1.phpproj.user">
+      <publishTime>04/13/2025 15:03:59</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
